@@ -1,0 +1,69 @@
+
+.cards-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 50px;
+  height: 31px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.visa {
+  background-image: url('../img/visa.png');
+}
+
+.mastercard {
+  background-image: url('../img/mastercard.png');
+}
+
+.mir {
+  background-image: url('../img/mir.png');
+}
+
+.discover {
+  background-image: url('../img/discover.png');
+}
+
+.americanexpress {
+  background-image: url('../img/american_express.png');
+}
+
+.jcb {
+  background-image: url('../img/jcb.png');
+}
+
+.card-validator-form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-control input {
+  display: block;
+  width: 250px;
+  height: 25px;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.card-validator-submit {
+  display: block;
+  box-sizing: border-box;
+  width: 130px;
+  padding: 10px;
+  background-color: #5cb85c;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  color: #fff;
+}
