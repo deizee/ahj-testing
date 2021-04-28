@@ -18,7 +18,7 @@
   background-image: url('../img/visa.png');
 }
 
-.mastercard {
+.master {
   background-image: url('../img/mastercard.png');
 }
 
@@ -30,7 +30,7 @@
   background-image: url('../img/discover.png');
 }
 
-.americanexpress {
+.amex {
   background-image: url('../img/american_express.png');
 }
 
@@ -41,6 +41,10 @@
 .card-validator-form {
   display: flex;
   align-items: flex-end;
+}
+
+.form-control {
+  position: relative;
 }
 
 .form-control label {
@@ -57,6 +61,22 @@
   border-radius: 5px;
 }
 
+.card-validator-result {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 30px;
+  right: 20px;
+}
+
+.success {
+  background-image: url('../img/yes.png');
+}
+
+.failure {
+  background-image: url('../img/no.png');
+}
+
 .card-validator-submit {
   display: block;
   box-sizing: border-box;
@@ -66,4 +86,8 @@
   border: 1px solid #aaa;
   border-radius: 5px;
   color: #fff;
+}
+
+.mute-card {
+  opacity: 0.5;
 }
